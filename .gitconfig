@@ -1,0 +1,18 @@
+[user]
+    name = USERNAME
+	email = GitHub_Email
+	signingkey = SIGNING_KEY
+
+[github]
+	token = "TOKEN"
+	user = USERNAME
+[credential]
+	helper = store
+
+#GPG Must be setup properly for this to work 
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[push]
+	default = current
